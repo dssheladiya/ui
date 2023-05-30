@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 import 'Soup2Widget.dart';
@@ -49,6 +51,7 @@ class _soup3State extends State<soup3> {
                       children: [
                         IconButton(
                             onPressed: () {
+                              log('object');
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
